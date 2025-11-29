@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/8fe048c345.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+    <title>contact us</title>
+</head>
+<style>
+  
+
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  min-height: 90px;
+  background: #000;
+  color: #ebebeb;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.top-bar__nav-toggle {
+  margin: 0px 100px;
+  display: inline-block;
+  color: #ebebeb;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 50px;
+  min-width: 55px;
+  text-align: center;
+  transition: 0.25s;
+}
+.top-bar__nav-toggle:focus {
+  outline: none;
+  transform: scale(1.1);
+}
+.top-bar__brand {
+  color: #ebebeb;
+  text-decoration: none;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.25s;
+}
+.top-bar__contact {
+  margin-left: auto;
+}
+.top-bar__contact a {
+  color: #ebebeb;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 30px;
+}
+.top-bar__social {
+  display: flex;
+  height: 90px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 110px;
+  transition: 0.25s;
+}
+.top-bar__social a {
+  color: #ebebeb;
+  font-size: 35px;
+}
+@media (max-width: 1000px) {
+  .top-bar__nav-toggle {
+    margin-right: 0;
+  }
+  .top-bar__brand {
+    flex: 1;
+  }
+  .top-bar__contact {
+    display: none;
+  }
+  .top-bar__social {
+    margin-left: auto;
+  }
+  
+}
+@media (max-width: 700px) {
+  .top-bar__nav-toggle {
+    margin-left: 20px;
+  }
+  .top-bar__social {
+    margin-right: 20px;
+  }
+
+}
+
+.top-bar__nav {
+  width: 100%;
+  background: #000;
+  transition: 0.25s;
+  max-height: 400px;
+  overflow: hidden;
+}
+.top-bar__nav.collapsed {
+  max-height: 0;
+  min-height: 0;
+}
+.top-bar__nav-list {
+  list-style: none;
+  padding: 0;
+}
+.top-bar__nav-list li {
+  padding: 1rem;
+  text-align: center;
+}
+.top-bar__nav-list a {
+  color: #ebebeb;
+  text-decoration: none;
+  font-size: 1.6rem;
+  display: inline-block;
+  padding: 0.4rem;
+  transition: 0.25s;
+  border-bottom: 2px solid transparent;
+}
+.top-bar__nav-list a:hover {
+  transform: scale(1.2);
+  filter: brightness(140%);
+  border-bottom: 2px solid #ebebeb;
+}
+
+.hamburger {
+  position: relative;
+  height: 50px;
+}
+.hamburger span {
+  width: 50px;
+  height: 7px;
+  position: absolute;
+  background: #ebebeb;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  border-radius: 3px;
+}
+.hamburger span:nth-child(1) {
+  top: 20%;
+  transition: top 0.125s 0.25s, transform 0.125s;
+}
+.hamburger span:nth-child(2) {
+  top: 50%;
+  transition: top 0.125s 0.25s, transform 0.125s;
+}
+.hamburger span:nth-child(3) {
+  top: 80%;
+  transition: top 0.125s 0.25s, transform 0.125s;
+}
+.hamburger.closed span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: top 0.125s, transform 0.125s 0.25s;
+}
+.hamburger.closed span:nth-child(2) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  transition: top 0.125s, transform 0.125s 0.25s;
+}
+.hamburger.closed span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  transition: top 0.125s, transform 0.125s 0.25s;
+}
+
+.ab  {
+
+width: 100%;
+padding-top: 50%;
+height: 450px;
+background: linear-gradient(rgba(15,23,43,.9),rgba(15,23,43,.9)),url("img/bgabout.jpg");
+}
+
+.tit h1{
+
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.tit {
+
+font-weight: 600;
+font-size: 80px;
+}
+
+
+
+
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.text-center h1 {
+    display: block;
+    font-size: 5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Nunito",sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #fff;
+    padding-top: 5%;
+}
+.text-center {
+    text-align: center!important;
+}
+@media (max-width:1200px) {
+  
+    .text-center h1 {padding-top: 20%;}
+  }
+  @media (max-width:1200px) {
+    .text-center h1 {padding-top: 20%;
+    font-size: 3.5rem;
+    }
+}
+@media (max-width: 450px) {
+    .text-center h1 {
+        padding-top: 60%;
+    font-size: 3rem;
+    }
+  }
+  @media (max-width: 220px) {
+    .text-center h1 {
+        padding-top: 110%;
+    font-size: 3rem;
+    }
+  }
+
+
+  .to-top {
+	color: #fff;
+	font-size: 30px;
+	position: fixed;
+	right: 12px;
+	bottom: 12px;
+	height: 40px;
+	width: 40px;
+	text-decoration: none;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5); 
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.to-top:hover {
+	background-color: #222;
+	color: #fff;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+
+
+
+.container:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url("img/img7.jpg") no-repeat center;
+    background-size: cover;
+    filter: blur(50px);
+    z-index: -1;
+  }
+  .contact-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+  }
+  
+  .left{
+    background: url("img/img7.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+  }
+  
+  .right{
+    padding: 25px 40px;
+  }
+  
+  .container h2{
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+  }
+  
+  .container h2:after{
+    content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 4px;
+      width: 50px;
+      border-radius: 2px;
+      background-color: red;
+  }
+  
+  .field{
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    outline: none;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+  }
+  
+  .field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  textarea{
+    min-height: 150px;
+  }
+  
+  .btn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .btn:hover{
+      background-color: #e15353;
+  }
+  
+  .field:focus{
+      border: 2px solid rgba(30,85,250,0.47);
+      background-color: #fff;
+  }
+  
+  @media screen and (max-width: 880px){
+    .contact-box{
+      grid-template-columns: 1fr;
+    }
+    .left{
+      height: 200px;
+    }
+  }
+
+body{
+    color:#fff
+  }
+  .map_sec{
+      padding: 50px 0px;
+  }
+  .map_inner h4, .map_inner p{
+      color: #000;
+      text-align: center
+  }
+  .map_inner p{
+      font-size: 13px;
+  }
+  .map_bind{
+     margin-top: 50px;
+      border-radius: 30px;
+      overflow: hidden;
+  }
+
+
+
+
+
+  .footer .container{
+	max-width: 1170px;
+	margin:auto;
+}
+.footer .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+    margin-top: 100px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+</style>
+<body>
+    <div class="top-bar" style="position:fixed ; width: 100%;z-index: 100;" >
+        <button class="top-bar__nav-toggle hamburger" id="top-nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a href="#" class="top-bar__brand">The 76</a>
+        <div class="top-bar__contact">
+          <a href="#">
+            <i class="fa fa-phone" aria-hidden="true"></i> +126 29204795
+          </a>
+          <a href="#">
+            <i class="fa fa-envelope" aria-hidden="true"></i> la100fa100@outlook.fr
+          </a>
+        </div>
+        <div class="top-bar__social">
+          <a href="https://www.facebook.com/caferesto76"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/the.76.gafsa/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <nav class="top-bar__nav collapsed" id="top-bar__nav">
+            <ul class="top-bar__nav-list ">
+                <li><a href="The 76.html">Home</a></li>
+                <li><a href="about us.html">About</a></li>
+                <li><a href="menu2.html">Menu</a></li>
+                <li><a href="Contact us.html">Contact</a></li>
+              </ul>
+        </nav>
+      </div>
+   
+</div> 
+<div class="text-center" id="startchange" > 
+    <div style="padding-top: 5%;" class="ab">
+         <h1 class="tit">
+          Contact us
+         </h1>
+</div>
+
+
+
+
+
+  <div class="container" style="margin-top: 50px;">
+    <div class="contact-box">
+      <div class="left"></div>
+
+      <div class="right" onsubmit="sendEmail(); reset(); return false;">
+        <h2>Contact Us</h2>
+        <input type="text" class="field" placeholder="Your Name" required>
+        <input type="text" class="field" placeholder="Your Email" required>
+        <input type="text" class="field" placeholder="Phone" required>
+        <textarea id="message" placeholder="Message" class="field"></textarea>
+        <button class="btn">Send</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+        function sendEmail() {
+            Email.send({
+                Host : "smtp.mailtrap.com",
+        Username : " username",
+        Password : "password",
+        To : 'recipient@example.com',
+        From : "sender@example.com",
+        Subject : "This is the subject",
+        Body : "this is the body"
+      }).then(
+        message => alert(message)
+      );
+    }
+
+
+    
+    </script>
+    
+
+
+        
+    
+    <section class="map_sec" style="margin-top: 50px;"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="map_inner">
+                        <h4>Find Us on Google Map</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quo beatae quasi assumenda, expedita aliquam minima tenetur maiores neque incidunt repellat aut voluptas hic dolorem sequi ab porro, quia error.</p>
+                        <div class="map_bind">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13165.583707625427!2d8.7909897!3d34.4166969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f896ff7254eef3%3A0x50486a7633b22783!2scafe%20resto%2076!5e0!3m2!1sfr!2stn!4v1686566939858!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="#">watch</a></li>
+                <li><a href="#">bag</a></li>
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">dress</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <a class="to-top" href="#myPage" title="toTop">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </footer>
+    <script src="script.js"></script>
+    
+    <script>
+    
+    $(function(){
+    
+    var nav = $('.navbar'),
+    doc = $(document),
+    win = $(window);
+    
+    win.scroll(function() {
+    
+    if (doc.scrollTop() > 80) {
+      nav.addClass('scrolled');
+    } else {
+      nav.removeClass('scrolled');
+    }
+    
+    });
+    
+    win.scroll();
+    
+    });
+    
+    
+    $("#more").click(function(){
+    var $this = $(this);
+    $this.toggleClass('more');
+    if($this.hasClass('more')){
+    $this.text('More');         
+    } else {
+    $this.text('Less');
+    }
+    });
+    
+    
+    
+    $(window).scroll(function() {
+    $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+    
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+    $(this).addClass("slide");
+    }
+    });
+    }); 
+    
+    
+    
+    
+    $(document).ready(function(){ 
+    $(".navbar a, #service a").on('click', function(event) {
+    
+    if (this.hash !== "") {
+    event.preventDefault();
+    var hash = this.hash;
+    
+    $('html, body').animate({
+    scrollTop: $(hash).offset().top
+    }, 900, function(){
+    
+    window.location.hash = hash;
+    });
+    } 
+    });
+    
+    
+    $(window).scroll(function() {
+    if ($(this).scrollTop() >= 300) {        
+    $('.to-top').fadeIn(200);    
+    } else {
+    $('.to-top').fadeOut(200);   
+    }
+    });
+    $('.to-top').click(function() {      
+    $('.body,html').animate({
+    scrollTop : 0                       
+    }, 500);
+    });
+    
+    })
+    </script>  
+    <script>
+      (function() {
+    if (document.querySelector("#top-nav-toggle")) {
+      var navToggle = document.querySelector("#top-nav-toggle");
+  
+      function watchNavClose(e) {
+        var topNav = document.querySelector(".top-bar");
+        if (!e.path.includes(topNav)) {
+          openCloseNav();
+          document.documentElement.removeEventListener("click", watchNavClose);
+        }
+      }
+  
+      function openCloseNav() {
+        var navToggle = document.querySelector("#top-nav-toggle");
+  
+        if (!navToggle.classList.contains("closed")) {
+          navToggle.classList.add("closed");
+          document.querySelector("#top-bar__nav").classList.remove("collapsed");
+          document.querySelector("html").addEventListener("click", watchNavClose);
+        } else {
+          navToggle.classList.remove("closed");
+          document.querySelector("#top-bar__nav").classList.add("collapsed");
+          document.documentElement.removeEventListener("click", watchNavClose);
+        }
+      }
+  
+      navToggle.addEventListener("click", openCloseNav);
+    }
+  })();
+  
+  </script>    
+  
+</body>
+</html>

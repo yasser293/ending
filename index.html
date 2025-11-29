@@ -1,0 +1,1816 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+        <link rel="stylesheet" href="project.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+    
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+      <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://kit.fontawesome.com/8fe048c345.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+        <title>76 Café & restau</title>
+ </head>
+ <style>
+    @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+.second {
+background: #3d3d3d;;
+}
+
+
+.top-bar {
+  display: flex;
+  min-height: 90px;
+  background: #000;
+  color: #ebebeb;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.top-bar__nav-toggle {
+  margin: 0px 100px;
+  display: inline-block;
+  color: #ebebeb;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 50px;
+  min-width: 55px;
+  text-align: center;
+  transition: 0.25s;
+}
+.top-bar__nav-toggle:focus {
+  outline: none;
+  transform: scale(1.1);
+}
+.top-bar__brand {
+  color: #ebebeb;
+  text-decoration: none;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.25s;
+}
+.top-bar__contact {
+  margin-left: auto;
+}
+.top-bar__contact a {
+  color: #ebebeb;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 30px;
+}
+.top-bar__social {
+  display: flex;
+  height: 90px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 110px;
+  transition: 0.25s;
+}
+.top-bar__social a {
+  color: #ebebeb;
+  font-size: 35px;
+}
+@media (max-width: 1000px) {
+  .top-bar__nav-toggle {
+    margin-right: 0;
+  }
+  .top-bar__brand {
+    flex: 1;
+  }
+  .top-bar__contact {
+    display: none;
+  }
+  .top-bar__social {
+    margin-left: auto;
+  }
+}
+@media (max-width: 700px) {
+  .top-bar__nav-toggle {
+    margin-left: 20px;
+  }
+  .top-bar__social {
+    margin-right: 20px;
+  }
+ .left-col iframe{
+  width: 220px;
+  height: 600px;
+
+}
+ 
+}
+.top-bar__nav {
+  width: 100%;
+  background: #000;
+  transition: 0.25s;
+  max-height: 400px;
+  overflow: hidden;
+}
+.top-bar__nav.collapsed {
+  max-height: 0;
+  min-height: 0;
+}
+.top-bar__nav-list {
+  list-style: none;
+  padding: 0;
+}
+.top-bar__nav-list li {
+  padding: 1rem;
+  text-align: center;
+}
+.top-bar__nav-list a {
+  color: #ebebeb;
+  text-decoration: none;
+  font-size: 1.6rem;
+  display: inline-block;
+  padding: 0.4rem;
+  transition: 0.25s;
+  border-bottom: 2px solid transparent;
+}
+.top-bar__nav-list a:hover {
+  transform: scale(1.2);
+  filter: brightness(140%);
+  border-bottom: 2px solid #ebebeb;
+}
+
+.hamburger {
+  position: relative;
+  height: 50px;
+}
+.hamburger span {
+  width: 50px;
+  height: 7px;
+  position: absolute;
+  background: #ebebeb;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  border-radius: 3px;
+}
+.hamburger span:nth-child(1) {
+  top: 20%;
+  transition: top 0.125s 0.25s, transform 0.125s;
+}
+.hamburger span:nth-child(2) {
+  top: 50%;
+  transition: top 0.125s 0.25s, transform 0.125s;
+}
+.hamburger span:nth-child(3) {
+  top: 80%;
+  transition: top 0.125s 0.25s, transform 0.125s;
+}
+.hamburger.closed span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: top 0.125s, transform 0.125s 0.25s;
+}
+.hamburger.closed span:nth-child(2) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  transition: top 0.125s, transform 0.125s 0.25s;
+}
+.hamburger.closed span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  transition: top 0.125s, transform 0.125s 0.25s;
+}
+
+
+.main-carousel {
+    position: relative;
+    height: 700px;
+  }
+  .main-carousel .carousel {
+    margin: 30px 0 30px 0;
+    width: 100%;
+  }
+  .main-carousel .carousel .items {
+    width: 100%;
+  }
+  .main-carousel .carousel .items .carousel-image {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s all;
+  }
+  .main-carousel .carousel .items .current {
+    opacity: 1;
+  }
+  .main-carousel .buttons #prevBtn,
+  .main-carousel .buttons #nextBtn {
+    height: 35px;
+    width: 35px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    opacity: 0.7;
+    position: absolute;
+  }
+  .main-carousel .buttons #prevBtn:hover,
+  .main-carousel .buttons #nextBtn:hover {
+    opacity: 1;
+  }
+  .main-carousel .buttons #prevBtn {
+    top: 50%;
+    left: 3%;
+  }
+  .main-carousel .buttons #nextBtn {
+    top: 50%;
+    right: 3%;
+  }
+  .main-carousel .nav-dots {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 99;
+  }
+  .main-carousel .nav-dots .dot {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .main-carousel .nav-dots .active {
+    opacity: 1;
+  }
+
+
+
+
+  .section_all bg-light h1, h2, h3, h4, h5, h6 {
+    color: #2c3145;
+}
+.section_all bg-light a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+}
+.section_all bg-light ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section_all {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    min-height: 100vh;
+}
+.section-title {
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.section-subtitle {
+    letter-spacing: 0.4px;
+    line-height: 28px;
+    max-width: 550px;
+}
+
+.section-title-border {
+    background-color: #000;
+    height: 1 3px;
+    width: 44px;
+}
+
+.section-title-border-white {
+    background-color: #fff;
+    height: 2px;
+    width: 100px;
+}
+.text_custom {
+    color:  #fda039;
+    font-size:clamp(2.5rem, 10vw, 5rem);
+    font-family: 'Parisienne', cursive;
+}
+
+.about_icon i {
+    font-size: 22px;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 35px;
+    color: #f38e1b;
+    box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
+}
+
+.about_header_main .about_heading {
+    max-width: 450px;
+    font-size: 24px;
+}
+
+.about_icon span {
+    position: relative;
+    top: -10px;
+}
+
+.about_content_box_all {
+    padding: 28px;
+}
+
+
+
+
+
+
+
+
+
+.to-top {
+	color: #fff;
+	font-size: 30px;
+	position: fixed;
+	right: 12px;
+	bottom: 12px;
+	height: 40px;
+	width: 40px;
+	text-decoration: none;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5); 
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.to-top:hover {
+	background-color: #222;
+	color: #fff;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+
+
+
+.page_title {
+    padding: 30px 0px;
+}
+.page_title h1 {
+    color: #f38e1b;
+    font-weight: 700;
+    line-height: 2;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: capitalize;
+}
+.page_title h1::before {
+    background: #c0392b;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    content: '';
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.page_title h1::after {
+    position: absolute;
+    content: '';
+    background: #fbc531;
+    width: 30px;
+    height: 2px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu_tab {
+    margin: 0 auto;
+    justify-content: center;
+}
+.nav-item {
+    display: inline-block;
+    text-align: center;
+}
+.nav-tabs .nav-link{
+    transition: .3s;
+}
+.nav-tabs .nav-link.active {
+    background: #c0392b;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #c0392b;
+    text-transform: capitalize;
+}
+.nav-link {
+    color: #000;
+}
+.nav-tabs .nav-link:hover {
+    background: #c0392b;
+    color: #fff;
+    border: 1px solid #c0392b;
+}
+.single_menu {
+    position: relative;
+    margin-bottom: 75px;
+    transition: .3s;
+}
+.single_menu:hover img{
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+
+}
+.single_menu img {
+    width: 33%;
+    position: absolute;
+    height: 140px;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    transition: .3s;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.menu_content {
+    padding-left: 200px;
+}
+.menu_content h4 {
+    font-size: 25px;
+    font-weight: 300;
+    border-bottom: 1px dashed #c0392b;
+    line-height: 2;
+    text-transform: capitalize;
+}
+.menu_content h4 span {
+    font-size: 25px;
+    font-weight: 800;
+    float: right;
+    font-style: italic;
+    color: #c0392b;
+}
+.menu_content p {
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.menu_btn.btn.btn-danger {
+    margin: 0 auto;
+    display: block;
+    width: 140px;
+}
+
+.menu_btn.btn.btn-danger {
+	margin: 0 auto;
+	display: block;
+	width: 140px;
+}
+.btn.btn-danger {
+	background: #c0392b;
+	border: 1px solid #c0392b;
+	transition: .3s;
+	position: relative;
+	z-index: 1;
+	text-transform: capitalize;
+	font-weight: 700;
+	overflow: hidden;
+	padding: 15px 25px;
+}
+.btn.btn-danger::before {
+	position: absolute;
+	content: '';
+	background: #e74c3c;
+	width: 100%;
+	height: 100%;
+	left: -100%;
+	top: 100%;
+	transition: .3s;
+	z-index: -1;
+}
+.btn.btn-danger:hover:before{
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.profile-card{
+    position:relative;
+    overflow: hidden;
+    margin-bottom:10px;
+}
+.profile-card .profile-img img{
+    width:100%;
+    height:auto;
+}
+.profile-card .profile-content::before{
+    content: "";
+    position:absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height:40%;
+    border:3px solid #222;
+    border-right:3px solid transparent;
+    border-bottom:3px solid transparent;
+    transform: scale(1,1);
+    transition: all 0.50s linear;
+}
+.profile-card .profile-content::after{
+    content: "";
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:50%;
+    height:40%;
+    border:3px solid #222;
+    border-left:3px solid transparent;
+    border-top:3px solid transparent;
+    transition: all 0.50s linear;
+}
+.profile-card:hover .profile-content:before{
+    top:20px;
+    left:20px;
+}
+.profile-card:hover .profile-content:after{
+    bottom:20px;
+    right:20px;
+}
+.profile-card .profile-content::after{
+    content: "";
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:50%;
+    height:40%;
+    border:3px solid #222;
+    border-left:3px solid transparent;
+    border-top:3px solid transparent;
+    transform: scale(1,1);
+    transition: all 0.50s linear;
+}
+.profile-card .profile-content{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:50% 4%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.4);
+}
+.profile-card .profile-content .title{
+    font-size:24px;
+    color:#333;
+    opacity:0;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    transform: translateY(-100px);
+    transition:all 900ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.20s;
+}
+.profile-card:hover .title{
+    opacity:1;
+    transform: translateY(0);
+}
+.profile-card:hover .title::after{
+    content:"";
+    display:block;
+    width:50%;
+    margin:10px auto;
+    border-bottom:2px solid #222;
+}
+.profile-card .profile-content .title > span{
+    display:block;
+    margin:5px 0;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.profile-card .profile-content .social-link{
+    margin:20px 0;
+    padding:0;
+    opacity:0;
+    transform: translateY(100px);
+    transition:all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.20s;
+}
+.profile-card:hover .social-link{
+    opacity:1;
+    transform: translateY(0);
+}
+.profile-card .profile-content .social-link li{
+    display: inline-block;
+    list-style: none;
+    margin:0 4px;
+}
+.profile-card .profile-content .social-link li a{
+    color:#333;
+    width:30px;
+    height:25px;
+    line-height:24px;
+    text-align: center;
+    border-radius:5px;
+    background-color: #fff;
+}
+
+
+
+
+
+.main{
+  height: 50vh;
+}
+.hover-effect1 {
+  min-height: 20px;
+  background: #F44336;
+  text-align: center;
+}
+.hover-effect1 ul {
+ padding-top: 1px;
+}
+.hover-effect1 ul li {
+ display: inline-block;
+}
+.hover-effect1 ul li a {
+ font-size: 30px;
+ text-align: center;
+ color: #fff;
+ margin: 0px 10px;
+ line-height: 50px;
+ display: inline-block;
+ width: 50px;
+ height: 50px;
+ background:#dc3545;
+ -webkit-transition: all .6s ease;
+ -moz-transition: all .6s ease;
+ -ms-transition: all .6s ease;
+ -o-transition: all .6s ease;
+ transition: all .6s ease;
+}
+.hover-effect1 ul li:hover a {
+  border-radius: 50%;
+  background: #dc3545;
+ -moz-transform: rotate(360deg);
+ -webkit-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+.bg p {
+color: #fff;
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#treat{
+    background-repeat: no-repeat;
+    background: url("img/testimoin.jpg");
+    background-attachment: fixed;
+}
+.testimonial {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+  font-family: "Poppins", sans-serif;
+}
+
+.testimonial ul {
+  list-style-type: none;
+}
+
+.testimonial a,
+a:hover {
+  text-decoration: none;
+}
+
+ .testimonial {
+  padding: 100px 0;
+}
+.testimonial .row .tabs {
+  all: unset;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+ .testimonial .row .tabs li {
+  all: unset;
+  display: block;
+  position: relative;
+}
+ .testimonial .row .tabs li.active::before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: #f38e1b;
+  border-radius: 50%;
+}
+.testimonial .row .tabs li.active::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #f38e1b;
+  border-radius: 50%;
+}
+.testimonial .row .tabs li:nth-child(1) {
+  align-self: flex-end;
+}
+.testimonial .row .tabs li:nth-child(1) figure img {
+  margin-left: auto;
+}
+ .testimonial .row .tabs li:nth-child(2) {
+  align-self: flex-start;
+}
+ .testimonial .row .tabs li:nth-child(2)::before {
+  right: -65px;
+  top: 50%;
+}
+ .testimonial .row .tabs li:nth-child(2)::after {
+  bottom: 101px;
+  border-radius: 50%;
+  right: -120px;
+}
+.testimonial .row .tabs li:nth-child(2) figure img {
+  margin-right: auto;
+  max-width: 300px;
+  width: 100%;
+  margin-top: -50px;
+}
+.testimonial .row .tabs li:nth-child(3) {
+  align-self: flex-end;
+}
+ .testimonial .row .tabs li:nth-child(3)::before {
+  right: -10px;
+  top: -66%;
+}
+ .testimonial .row .tabs li:nth-child(3)::after {
+  top: -130px;
+  border-radius: 50%;
+  right: -46px;
+}
+ .testimonial .row .tabs li:nth-child(3) figure img {
+  margin-left: auto;
+  margin-top: -50px;
+}
+ .testimonial .row .tabs li:nth-child(3):focus {
+  border: 10px solid red;
+}
+ .testimonial .row .tabs li figure {
+  position: relative;
+}
+.testimonial .row .tabs li figure img {
+  display: block;
+}
+ .testimonial .row .tabs li figure::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border: 4px solid #dff9d9;
+  border-radius: 50%;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+ .testimonial .row .tabs li figure:hover::after {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+ .testimonial .row .tabs.carousel-indicators li.active figure::after {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+ .testimonial .row .carousel > h3 {
+  font-size: 20px;
+  line-height: 1.45;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+ .testimonial .row .carousel h1 {
+  font-size: 40px;
+  line-height: 1.225;
+  margin-top: 23px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.testimonial .row .carousel .carousel-indicators {
+  all: unset;
+  padding-top: 43px;
+  display: flex;
+  list-style: none;
+}
+ .testimonial .row .carousel .carousel-indicators li {
+  background: #fff;
+  background-clip: padding-box;
+  height: 2px;
+}
+ .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper {
+  margin-top: 42px;
+}
+ .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper p {
+  font-size: 18px;
+  line-height: 1.72222;
+  font-weight: 500;
+  color: #fff;
+}
+ .testimonial .row .carousel .carousel-inner .carousel-item .quote-wrapper h3 {
+  color: #fff;
+  font-weight: 700;
+  margin-top: 37px;
+  font-size: 20px;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1200px) {
+  .testimonial .row .tabs {
+    margin-right: 25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer .container{
+	max-width: 1170px;
+	margin:auto;
+}
+.footer .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+   
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+ </style>
+<body>
+<div class="bod">
+    <div class="top-bar" style="position: fixed; width: 100%;z-index: 100;" id="myPage" >
+        <button class="top-bar__nav-toggle hamburger" id="top-nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a href="#" class="top-bar__brand">The 76 </a>
+        <div class="top-bar__contact">
+          <a href="#">
+            <i class="fa fa-phone" aria-hidden="true"></i> +126 29204795
+          </a>
+          <a href="#">
+            <i class="fa fa-envelope" aria-hidden="true"></i> la100fa100@outlook.fr
+          </a>
+        </div>
+        <div class="top-bar__social">
+          <a href="https://www.facebook.com/caferesto76"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/the.76.gafsa/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <nav class="top-bar__nav collapsed" id="top-bar__nav" >
+          <ul class="top-bar__nav-list ">
+            <li><a href="The 76.html">Home</a></li>
+            <li><a href="about us.html">About</a></li>
+            <li><a href="menu2.html">Menu</a></li>
+            <li><a href="Contact us.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+<div style="padding-top: 4%;" class="sli">
+    <div class="main-carousel">
+        <div class="carousel">
+          <div class="items">
+            <img src="img/team3.jpg" alt="" class="carousel-image current" />
+            <img src="img/img5.jpg" alt="" class="carousel-image" />
+            <img src="img/team.jpg" alt="" class="carousel-image" />
+            <img src="img/team2.jpg" alt="" class="carousel-image" />
+            <img src="img/img6.jpg" alt="" class="carousel-image" />
+          </div>
+        </div>
+  
+        <div class="buttons">
+          <i class="fas fa-chevron-left fa-3x" id="prevBtn"></i>
+          <i class="fas fa-chevron-right fa-3x" id="nextBtn"></i>
+        </div>
+        <div class="nav-dots" >
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div> 
+</div>
+<div class="second">
+    <section class="section_all bg-light" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title_all text-center">
+                        <h3 class="font-weight-bold">Welcome To <span class="text-custom" style="color:  #c0392b;">76 Café & restaurant</span></h3>
+                        <p class="section_subtitle mx-auto text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br/>Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <div class="">
+                            <i class=""></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row vertical_content_manage mt-5">
+                <div class="col-lg-6">
+                    <div class="about_header_main mt-3">
+                        <div class="about_icon_box">
+                            <p class="text_custom font-weight-bold">We're really great guys</p>
+                        </div>
+                        <h4 class="about_heading text-capitalize font-weight-bold mt-4">Lorem Ipsum is simply dummy text of the printing industry.</h4>
+                        <p class="text-muted mt-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+                        <p class="text-muted mt-3"> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img_about mt-3">
+                        <img src="img/img20.jpg" alt="" class="img-fluid mx-auto d-block">
+                    </div>
+                </div>
+            </div>
+        <div class="ser">
+            <h3 class="font-weight-bold" style="margin-top: 20px;">Look for <span class="text-custom" style="color:  #fda039;">Our services</span></h3>
+            <div class="row mt-3">
+                <div class="col-lg-4">
+                    <div class="about_content_box_all mt-3">
+                        <div class="about_detail text-center">
+                            <div class="about_icon">
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+                            <h5 class="text-dark text-capitalize mt-3 font-weight-bold">Bussines meating</h5>
+                            <p class="edu_desc mt-3 mb-0 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="about_content_box_all mt-3">
+                        <div class="about_detail text-center">
+                            <div class="about_icon">
+                                <i class="fab fa-angellist"></i>
+                            </div>
+                            <h5 class="text-dark text-capitalize mt-3 font-weight-bold">birthday party</h5>
+                            <p class="edu_desc mb-0 mt-3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="about_content_box_all mt-3">
+                        <div class="about_detail text-center">
+                            <div class="about_icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </div>
+                            <h5 class="text-dark text-capitalize mt-3 font-weight-bold">Date</h5>
+                            <p class="edu_desc mb-0 mt-3 text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</div>
+
+<div style="text-align: center;margin-top: 20px;">
+
+</div>
+
+<section id="our_menu" class="pt-5 pb-5" class="mm" >
+    <div class="container">
+        <div class="rom">
+            <div class="col-lg-12">
+                <div class="page_title text-center mb-4">
+                    <h1>our menu</h1>
+                    <div class="single_line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="rom">
+            <ul class="nav nav-tabs menu_tab mb-4" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab">Breakfast</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab">Lunch</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab">Dinner</a>
+                </li>
+            </ul>
+        </div>
+        <div class="rom">
+            <div class="tab-content col-lg-12" id="myTabContent">
+                <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
+                                <div class="menu_content">
+                                    <h4>Chicken Burger  <span>$24</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+                                <div class="menu_content">
+                                    <h4>Black coffee <span>$20</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+                                <div class="menu_content">
+                                    <h4>Fried Rice  <span>$45</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+                                <div class="menu_content">
+                                    <h4>meat  <span>$24</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/TAq7lDR.jpg" alt="burger">
+                                <div class="menu_content">
+                                    <h4>Chicken Burger  <span>$24</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+                                <div class="menu_content">
+                                    <h4>Black coffee <span>$20</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+                                <div class="menu_content">
+                                    <h4>Fried Rice  <span>$45</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+                                <div class="menu_content">
+                                    <h4>meat  <span>$24</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/Aowufa1.jpg" alt="pizza">
+                                <div class="menu_content">
+                                    <h4>12" Pizza  <span>$35</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/DJlmZDJ.jpg" alt="salad">
+                                <div class="menu_content">
+                                    <h4>Salad <span>$20</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/knnQm7e.jpg" alt="green tea">
+                                <div class="menu_content">
+                                    <h4>green tea <span>$15</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+                                <div class="menu_content">
+                                    <h4>meat  <span>$24</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
+                                <div class="menu_content">
+                                    <h4>Chicken Burger  <span>$24</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+                                <div class="menu_content">
+                                    <h4>Black coffee <span>$20</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+                                <div class="menu_content">
+                                    <h4>Fried Rice  <span>$45</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+                                <div class="menu_content">
+                                    <h4>meat  <span>$24</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
+                                <div class="menu_content">
+                                    <h4>Chicken Burger  <span>$24</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+                                <div class="menu_content">
+                                    <h4>Black coffee <span>$20</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+                                <div class="menu_content">
+                                    <h4>Fried Rice  <span>$45</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+                                <div class="menu_content">
+                                    <h4>meat  <span>$24</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
+                                <div class="menu_content">
+                                    <h4>Chicken Burger  <span>$24</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+                                <div class="menu_content">
+                                    <h4>Black coffee <span>$20</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+                                <div class="menu_content">
+                                    <h4>Fried Rice  <span>$45</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                            <div class="single_menu">
+                                <img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+                                <div class="menu_content">
+                                    <h4>meat  <span>$24</span></h4>
+                                    <p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="menu2.html" class=" menu_btn btn btn-danger">view more</a>
+        </div>
+    </div>
+</section>
+
+
+<div class="container">
+    <div style="margin-top: 110px;">
+    <h3 class="font-weight-bold">Meet <span class="text-custom" style="color:  #fda039; ">our chefs</span></h3></div>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="profile-card">
+                <div class="profile-img">
+                    <img src="img/chef3.png" alt="Team Image"/>
+                </div>
+                <div class="profile-content">
+                    <h2 class="title">Henry Polles
+                        <span>Designer,Developer</span>
+                    </h2>
+                    <ul class="social-link">
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-google"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-youtube"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="profile-card">
+                <div class="profile-img">
+                    <img src="img/chef3.png" alt="Team Image"/>
+                </div>
+                <div class="profile-content">
+                    <h2 class="title">Henry Polles
+                        <span>Designer,Developer</span>
+                    </h2>
+                    <ul class="social-link">
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-google"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-youtube"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="profile-card">
+                <div class="profile-img">
+                    <img src="img/chef3.png" alt="Team Image"/>
+                </div>
+                <div class="profile-content">
+                    <h2 class="title">Henry Polles
+                        <span>Designer,Developer</span>
+                    </h2>
+                    <ul class="social-link">
+                        <li><a href="#" class="fa fa-facebook"></a></li>
+                        <li><a href="#" class="fa fa-google"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-youtube"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="testimonial" id="treat" style="margin-top: 100px; color:#fff;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 d-none d-lg-block">
+                <ol class="carousel-indicators tabs">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                        <figure>
+                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt="">
+                        </figure>
+                    </li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1">
+                        <figure>
+                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt="">
+                        </figure>
+                    </li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2">
+                        <figure>
+                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="">
+                        </figure>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
+                    <h3 class="font-weight-bold">What our <span class="text-custom" style="color:  #fda039;">Clients say</span></h3>
+                    <h1>TESTIMONIALS</h1>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="quote-wrapper">
+                                <p>I have tried a lot of food delivery services but Plate is something out of this world! Their food is really healthy and it tastes great, which is why I recommend this company to all my friends!</p>
+                                <h3>lylia tand</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="quote-wrapper">
+                                <p>I have tried a lot of food delivery services but Plate is something out of this world! Their food is really healthy and it tastes great, which is why I recommend this company to all my friends!</p>
+                                <h3>adela vancova</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="quote-wrapper">
+                                <p>I have tried a lot of food delivery services but Plate is something out of this world! Their food is really healthy and it tastes great, which is why I recommend this company to all my friends!</p>
+                                <h3>med hadi</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+</section>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13165.583707625427!2d8.7909897!3d34.4166969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f896ff7254eef3%3A0x50486a7633b22783!2scafe%20resto%2076!5e0!3m2!1sfr!2stn!4v1686566939858!5m2!1sfr!2stn" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function(){
+  $(".testimonial .indicators li").click(function(){
+    var i = $(this).index();
+    var targetElement = $(".testimonial .tabs li");
+    targetElement.eq(i).addClass('active');
+    targetElement.not(targetElement[i]).removeClass('active');
+            });
+            $(".testimonial .tabs li").click(function(){
+                var targetElement = $(".testimonial .tabs li");
+                targetElement.addClass('active');
+                targetElement.not($(this)).removeClass('active');
+            });
+        });
+$(document).ready(function(){
+    $(".slider .swiper-pagination span").each(function(i){
+        $(this).text(i+1).prepend("0");
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <a class="to-top" href="#myPage" title="toTop">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</footer>
+</div>
+<script>
+
+$(function(){
+
+var nav = $('.navbar'),
+    doc = $(document),
+    win = $(window);
+
+win.scroll(function() {
+
+    if (doc.scrollTop() > 80) {
+        nav.addClass('scrolled');
+    } else {
+        nav.removeClass('scrolled');
+    }
+
+});
+
+win.scroll();
+
+});
+
+
+/* *** Btn More-Less *** */
+$("#more").click(function(){
+var $this = $(this);
+$this.toggleClass('more');
+if($this.hasClass('more')){
+    $this.text('More');         
+} else {
+    $this.text('Less');
+}
+});
+
+
+
+
+/* *** Slideanim  *** */
+$(window).scroll(function() {
+$(".slideanim").each(function(){
+var pos = $(this).offset().top;
+
+var winTop = $(window).scrollTop();
+if (pos < winTop + 600) {
+  $(this).addClass("slide");
+}
+});
+}); 
+
+
+
+
+/* *** Smooth Scrolling  *** */
+$(document).ready(function(){ 
+$(".navbar a, #service a").on('click', function(event) {
+
+if (this.hash !== "") {
+event.preventDefault();
+var hash = this.hash;
+
+$('html, body').animate({
+  scrollTop: $(hash).offset().top
+}, 900, function(){
+
+  window.location.hash = hash;
+  });
+} 
+});
+
+
+/* *** Scroll to Top *** */ 
+$(window).scroll(function() {
+  if ($(this).scrollTop() >= 300) {        
+      $('.to-top').fadeIn(200);    
+  } else {
+      $('.to-top').fadeOut(200);   
+  }
+});
+$('.to-top').click(function() {      
+  $('.body,html').animate({
+      scrollTop : 0                       
+  }, 500);
+});
+
+})
+</script>
+
+
+
+
+
+<script>
+
+const images = document.querySelectorAll(".carousel-image");
+const dots = document.querySelectorAll(".dot");
+const prevBtn = document.querySelector("#prevBtn");
+const nextBtn = document.querySelector("#nextBtn");
+
+const nextSlide = () => {
+  const currentSlide = document.querySelector(".current");
+  currentSlide.classList.remove("current");
+  if (currentSlide.nextElementSibling) {
+    currentSlide.nextElementSibling.classList.add("current");
+  } else {
+    images[0].classList.add("current");
+  }
+
+  dotsNextSlide();
+};
+
+const prevSlide = () => {
+  const currentSlide = document.querySelector(".current");
+  currentSlide.classList.remove("current");
+  if (currentSlide.previousElementSibling) {
+    currentSlide.previousElementSibling.classList.add("current");
+  } else {
+    images[images.length - 1].classList.add("current");
+  }
+
+  dotsPrevSlide();
+};
+
+nextBtn.addEventListener("click", k => {
+  nextSlide();
+});
+prevBtn.addEventListener("click", k => {
+  prevSlide();
+});
+
+// =================== Dots ===========================
+const dotsNextSlide = () => {
+  const dotActive = document.querySelector(".active");
+
+  dotActive.classList.remove("active");
+  if (dotActive.nextElementSibling) {
+    dotActive.nextElementSibling.classList.add("active");
+  } else {
+    dots[0].classList.add("active");
+  }
+  dotActive.classList.remove("active");
+};
+
+const dotsPrevSlide = () => {
+  const dotActive = document.querySelector(".active");
+
+  dotActive.classList.remove("active");
+  if (dotActive.previousElementSibling) {
+    dotActive.previousElementSibling.classList.add("active");
+  } else {
+    dots[dots.length - 1].classList.add("active");
+  }
+  dotActive.classList.remove("active");
+};
+
+const dotJump = () => {
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+      const dotActive = document.querySelector(".active");
+      dotActive.classList.remove("active");
+      dot.classList.add("active");
+
+      const imageTarget = images[index];
+      const currentSlide = document.querySelector(".current");
+
+      currentSlide.classList.remove("current");
+      imageTarget.classList.add("current");
+    });
+  });
+};
+dotJump();
+</script>
+
+
+
+<script>
+    (function() {
+  if (document.querySelector("#top-nav-toggle")) {
+    var navToggle = document.querySelector("#top-nav-toggle");
+
+    function watchNavClose(e) {
+      var topNav = document.querySelector(".top-bar");
+      if (!e.path.includes(topNav)) {
+        openCloseNav();
+        document.documentElement.removeEventListener("click", watchNavClose);
+      }
+    }
+
+    function openCloseNav() {
+      var navToggle = document.querySelector("#top-nav-toggle");
+
+      if (!navToggle.classList.contains("closed")) {
+        navToggle.classList.add("closed");
+        document.querySelector("#top-bar__nav").classList.remove("collapsed");
+        document.querySelector("html").addEventListener("click", watchNavClose);
+      } else {
+        navToggle.classList.remove("closed");
+        document.querySelector("#top-bar__nav").classList.add("collapsed");
+        document.documentElement.removeEventListener("click", watchNavClose);
+      }
+    }
+
+    navToggle.addEventListener("click", openCloseNav);
+  }
+})();
+
+</script>    
+      
+</body>
+</html>
+
